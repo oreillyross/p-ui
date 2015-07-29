@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+  <title>Pantler - Serving you in your kitchen</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+
+</head>
+
+<body>
+  <nav>
+    <div class="nav-wrapper indigo">
+
+      <ul class="left hide-on-med-and-down">
+        <li>
+
+          <a class='dropdown-button' href='#' data-activates='settings-dropdown' data-beloworigin="true">
+            <i class="material-icons">settings</i>
+          </a>
+
+          <!-- Dropdown Structure -->
+          <ul id='settings-dropdown' class='dropdown-content'>
+            <li><a href="#!">Log in</a></li>
+            <li class="divider"></li>
+            <li><a href="#!">Log out</a></li>
+          </ul>
+        </li>
+
+      </ul>
+
+      <a href="#!" class="center brand-logo">PANTLER</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#"><i class="material-icons">search</i></a></li>
+        <li><a href="#"><i class="material-icons">view_module</i></a></li>
+        <li><a href="#"><i class="material-icons">refresh</i></a></li>
+        <li><a href="#"><i class="material-icons">more_vert</i></a></li>
+      </ul>
+    </div>
+
+  </nav>
+
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s12">
+          <ul class="tabs">
+            <li class="tab col s3"><a class="active" href="#fridge">Fridge</a></li>
+            <li class="tab col s3"><a href="#spicerack">Spice Rack</a></li>
+            <li class="tab col s3"><a href="#freezer">Freezer</a></li>
+            <li class="tab col s3"><a href="#cupboard">Cupboard</a></li>
+          </ul>
+        </div>
+        <div id="fridge" class="col s12">
+          <!--ingredients container - 4 across infinite scroll reveal-->
+          <div class="row">
+
+            <!--ingredient-->
+            <div class="col s3 ">
+              <div class="card white">
+                <div class="card-content black-text">
+                  <p class="card-title black-text">
+                    Aubergine
+                  </p>
+                  <div class="card-content">
+                    <img src="images/aubergine.png" width="100" height="100">
+                    </br>
+                    <div>Amount: 3 of them</div>
+                    <div class="divider"></div>
+                    <div>Expires on 12 July 2015</div>
+                    <div class="divider"></div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <!--end ingredient-->
+
+
+
+
+          </div>
+          <!-- end ingredients container ---->
+        </div>
+
+        <div id="spicerack" class="col s12">
+
+          <!--ingredient table view container-->
+
+
+          <table class="striped">
+            <thead>
+              <tr>
+                <th data-field="ingredient">Ingredient</th>
+                <th data-field="quantity">Quantity</th>
+                <th data-field="expiry">Expiry</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>Aubergine</td>
+                <td>3</td>
+                <td>12 July 2015</td>
+                <td>
+
+                  <a class="btn-floating btn-small waves-effect waves-light red"><i class="material-icons">edit</i></a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+
+          <!-- end ingredient table view container---->
+
+        </div>
+        <div id="freezer" class="col s12">
+
+          Freezer
+
+        </div>
+        <div id="cupboard" class="col s12">
+
+          Cupboard
+
+        </div>
+      </div>
+
+
+
+    </div>
+    <br>
+  </div>
+
+  <footer class="page-footer orange lighten-2">
+    <div class="row">
+      <div class="col s12">
+        <div class="quotes">"Serving you in your kitchen"</div>
+        <br>
+        <div class="strap-line">
+          A Pantler is a historical term to refer to an officer responsible for the pantry or food supplies in a royal court. Technology has allowed the pantler to return to his humble service of managing your pantry.
+        </div>
+      </div>
+    </div>
+    <div class="indigo footer-copyright">
+      <div class="center container">
+        Made with <i class="fa fa-heart"></i> by <a class="white-text" href="#"> Faktor 10</a>
+      </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+</body>
+
+</html>
