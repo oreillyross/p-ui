@@ -6,6 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
   <title>Pantler - Serving you in your kitchen</title>
 
+  <!--Angular 2 scripts-->
+  <script src="https://github.jspm.io/jmcriffey/bower-traceur-runtime@0.0.87/traceur-runtime.js"></script>
+  <script src="https://jspm.io/system@0.16.js"></script>
+  <script src="https://code.angularjs.org/2.0.0-alpha.28/angular2.dev.js"></script>
+  
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
@@ -123,7 +128,8 @@
         </div>
         <div id="freezer" class="col s12">
 
-          Freezer
+         <ingredient></ingredient>
+         <script>System.import('ingredient');</script>
 
         </div>
         <div id="cupboard" class="col s12">
@@ -160,6 +166,7 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+  <script src="js/ingredient.js"></script>
 
 </body>
 
