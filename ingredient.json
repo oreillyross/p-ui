@@ -14,6 +14,70 @@ let ingredients = [
     {shop: "Lidl"},
     {shop: "Hoogvliet"}
   ]
-}
+},
+{
+  name: "white onion",
+  quantity_original: 12,
+  quantity_left: 4,
+  measurment_type: "piece",
+  brand: "",
+},
+{
+  name: "Carrot",
+  quantity_original: 4,
+  quantity_left: 4,
+  measurment_type: "piece",
+  brand: "",
+},
+{
+  name: "Leeks",
+  quantity_original: 1,
+  quantity_left: 1,
+  measurment_type: "piece",
+  brand: "",
+},
+{
+  name: "Garlic",
+  quantity_original: 12,
+  quantity_left: 5,
+  measurment_type: "bulb",
+  brand: "",
+},
+{
+  name: "Salt",
+  quantity_original: 200,
+  quantity_left: 120,
+  measurment_type: "g",
+  brand: "",
+},
+{
+  name: "Black Pepper",
+  quantity_original: 12,
+  quantity_left: 12,
+  measurment_type: "g",
+  brand: "",
+},
+{
+  name: "Aleppo Pepper",
+  quantity_original: 6,
+  quantity_left: 4,
+  measurment_type: "g",
+  brand: "",
+},
+{
+  name: "Fennel Sausage",
+  quantity_original: 8,
+  quantity_left: 8,
+  measurment_type: "ounces",
+  brand: "",
+},
+
+
+
+
+
+
+
+
 
 ]
