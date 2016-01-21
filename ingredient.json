@@ -1,0 +1,11 @@
+// the idea with this file is to create a list of all the ingredients
+ as they appear in your pepperplate app and match them with AH equivalents
+
+let ingredients = [
+
+{
+  name: ""
+
+}
+
+]
