@@ -4,8 +4,16 @@
 let ingredients = [
 
 {
-  name: ""
-
+  name: "Olive oil",
+  quantity_original: 750,
+  quantity_left: 40,
+  measurement_type: "ml",
+  brand: ""
+  available: [
+    {shop: "Albert Heijn"},
+    {shop: "Lidl"},
+    {shop: "Hoogvliet"}
+  ]
 }
 
 ]
